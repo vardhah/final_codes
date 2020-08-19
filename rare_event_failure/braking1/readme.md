@@ -1,11 +1,10 @@
-brake_speed2 => final work for 1D domain 
+Consist of three folders: 
 
-it consist of four folders: 
- 1. brake_1D: For VMC,AVF,PR and GMM adversary serach approach
- 2. braker_1D_GMM_AVF: AVF failure data is used for retraining the GMM model. 
- 3. data_1D: Consolidated crashed output data for all experiment(for 100 censecutive failure search) 
+ 1. brake_1D: For VMC,AVF,PR and GMM adversary serach approach training and testing.
+ 2. braker_1D_GMM_AVF: AVF failure data is used for retraining the GMM model during test time. 
+ 3. data_1D: Consolidated crashed output data for all approaches for this scenario(for 100 censecutive failure search) 
 
 Other files:
 
-A. Crashed1D_train.csv : Data file used to training GMM model
-B. 1D_GMM_trainer.ipynb: GMM trainer jupyter notebook code
+ 4. Crashed1D_train.csv : Crash Data used to training AVF/GMM model
+ 5. 1D_GMM_trainer.ipynb: GMM trainer jupyter notebook code
