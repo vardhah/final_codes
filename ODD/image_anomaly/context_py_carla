@@ -1,0 +1,7 @@
+#Type this two command to create context for CARLA, third is optional to not write bytecode. (only for bash sheel) 
+
+export CARLA_SERVER=/home/hv/CARLA/CarlaUE4.sh
+
+export PYTHONPATH=$PYTHONPATH:/home/hv/CARLA/PythonAPI/carla/dist/carla-0.9.7-py3.5-linux-x86_64.egg
+
+export PYTHONDONTWRITEBYTECODE=1
